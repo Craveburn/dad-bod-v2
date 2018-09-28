@@ -1,0 +1,13 @@
+.homeBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100vw;
+}
+
+.aboutImage {
+    background: url('../pics/Dad-bod-boys.jpg') no-repeat;
+    background-size: 100%; /** moved this property down */
+    height: 50vh;
+    width: 50vw;}
