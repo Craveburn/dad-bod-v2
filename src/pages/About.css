@@ -6,8 +6,26 @@
     max-width: 100vw;
 }
 
-.aboutImage {
-    background: url('../pics/Dad-bod-boys.jpg') no-repeat;
+.mikey {
+    background: url('../pics/MichaelMarinos.jpg') no-repeat;
     background-size: 100%; /** moved this property down */
-    height: 40vh;
+    height: 50vh;
+    width: 40vw;}
+    
+.lucas {
+    background: url('../pics/LucasOrton.jpg') no-repeat;
+    background-size: 100%; /** moved this property down */
+    height: 50vh;
+    width: 40vw;}
+
+.marcus {
+    background: url('../pics/MarcusMarinos.jpg') no-repeat;
+    background-size: 100%; /** moved this property down */
+    height: 50vh;
+    width: 40vw;}
+
+.matt {
+    background: url('../pics/MatthewMarinos.jpg') no-repeat;
+    background-size: 100%; /** moved this property down */
+    height: 50vh;
     width: 40vw;}
