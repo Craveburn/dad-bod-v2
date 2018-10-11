@@ -8,12 +8,16 @@ export default class extends Component {
 
     render() {
         return (
-            <div className='body'>
-                <div className="logoContainer"><Link to="/"> <div className="logo" style={{ backgroundImage: Logo }}></div> </Link></div>
-                <h3><Link to="/about">About</Link></h3>
-                <h3><Link to="/music">Music</Link></h3>
-                <h3><Link to="/shows">Shows</Link></h3>
-                <h3><Link to="/merch">Merch</Link></h3>
+            <div className='wrapper'>
+                <div className="logoContainer">
+                <ul>
+                <li><Link to="/" className="page"><span><div className="logo" style={{ backgroundImage: Logo }}></div></span></Link></li>
+                <li><Link to="/about" className="page"><span>About</span></Link></li>
+                <li><Link to="/music" className="page"><span>Music</span></Link></li>
+                <li><Link to="/shows" className="page"><span>Shows</span></Link></li>
+                <li><Link to="/merch" className="page"><span>Merch</span></Link></li>
+                </ul>
+                </div>
             </div>
         )
     }
