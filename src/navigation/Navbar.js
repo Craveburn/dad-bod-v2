@@ -11,7 +11,7 @@ export default class extends Component {
             <div className='wrapper'>
                 <div className="logoContainer">
                 <ul>
-                <li><Link to="/" className="page"><span><div className="logo" style={{ backgroundImage: Logo }}></div></span></Link></li>
+                <li><Link to="/" className="logoLink"><span><div className="logo" style={{ backgroundImage: Logo }}></div></span></Link></li>
                 <li><Link to="/about" className="page"><span>About</span></Link></li>
                 <li><Link to="/music" className="page"><span>Music</span></Link></li>
                 <li><Link to="/shows" className="page"><span>Shows</span></Link></li>

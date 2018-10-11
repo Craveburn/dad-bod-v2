@@ -1,11 +1,5 @@
 /* referencing navbar-css */
 
-/* .wrapper {
-    border: 1px solid red;
-    font-family: sans-serif;
-    background-image: linear-gradient(260deg, red 0%,#677997 100%)
-} */
-
 .logoContainer {
     max-width: 1000px;
     margin: 0 auto;
@@ -15,9 +9,22 @@
 /* img prop goes here */
 .logo {
     background: url('../pics/Dad-Bod_Red.png') no-repeat;
-    background-size: 100%; /* moved this property down */
-    width: 100%;
-    height: 100%
+    background-size: contain; /* moved this property down */
+    background-position: center;
+    height: 65px;
+}
+
+.logoLink {
+    text-decoration: none;
+    background: rgba(0,0,0,0.2);
+    padding:5px;
+    width:100%;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.logoLink:hover {
+    background:rgba(0,0,0,0.3);
 }
 
 .page {
@@ -65,39 +72,3 @@
     display: block;
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* .body {
-    background-color: aliceblue;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    max-width: 100vw;
-    max-height: 100vh;
-}
-
-h3 {
-    padding: 0px 30px;
-}
-
-.logoContainer {
-    margin-left: 35px;
-    max-width: 100vw
-}
-
-.logo {
-    display: flex;
-    background: url('../pics/Dad-Bod_Red.png') no-repeat;
-    background-size: 100%; /** moved this property down */
-    /* height: 100%;
-    width: 10vw;
-} */
