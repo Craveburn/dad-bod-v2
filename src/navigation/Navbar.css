@@ -1,4 +1,82 @@
-.body {
+/* referencing navbar-css */
+
+/* .wrapper {
+    border: 1px solid red;
+    font-family: sans-serif;
+    background-image: linear-gradient(260deg, red 0%,#677997 100%)
+} */
+
+.logoContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:50px;
+}
+
+/* img prop goes here */
+.logo {
+    background: url('../pics/Dad-Bod_Red.png') no-repeat;
+    background-size: 100%; /* moved this property down */
+    width: 100%;
+    height: 100%
+}
+
+.page {
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: rgba(0,0,0,0.2);
+    padding:20px;
+    width:100%;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.page:hover {
+    background:rgba(0,0,0,0.3);
+}
+
+/* flex container */
+.logoContainer ul {
+    border:1px solid black;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* flex items */
+.logoContainer li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+}
+
+.logoContainer .logo {
+    flex: 8;
+}
+
+.logoContainer .page {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer span {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .body {
     background-color: aliceblue;
     display: flex;
     justify-content: flex-start;
@@ -20,7 +98,6 @@ h3 {
     display: flex;
     background: url('../pics/Dad-Bod_Red.png') no-repeat;
     background-size: 100%; /** moved this property down */
-    height: 100%;
+    /* height: 100%;
     width: 10vw;
-}
-
+} */
