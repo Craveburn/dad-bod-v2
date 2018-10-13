@@ -4,24 +4,24 @@
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* flex container */
 .homeBody {
-    margin: 0;
-    padding:0;
     display: flex;
 }
 
 /* flex items */
-.homeBody span {
+.homeBody {
     flex: 1;
     text-align: center;
-    display: flex;
-    flex-basis: 100%
+    flex-direction: column;
 }
 
-.aboutImage {
-    background: url('../pics/Dad-bod-boys.jpg') no-repeat;
-    background-size: 100%; /** moved this property down */
-    height: 500px;
-    width: 500px;
+img {
+    padding:0 50px;
 }
+
+
