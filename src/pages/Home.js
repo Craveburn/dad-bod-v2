@@ -12,8 +12,8 @@ export default class extends Component {
             <div className='container'>
                 <Navbar />
                 <div className='homeBody'>
-                    <span><div className="aboutImage" style={{ backgroundImage: TheBoys }}></div></span>
-                    <span><p>this is the mothafuckin home page</p></span>
+                    <img src={TheBoys}></img>
+                    <p>this is the mothafuckin home page</p>
                 </div>
             </div>
         )
