@@ -12,18 +12,18 @@ import Navbar from '../navigation/Navbar.js'
 export default class extends Component {
     render() {
         return (
-            <div className='container'>
+            <div className='aboutContainer'>
                 <Navbar />
                 <div className="aboutBody">
                     <h1>Dad bod is a band.</h1>
                     <div className="theBoys">
-                        <div className="mikey" style={{ backgroundImage: Mike }}></div>
+                        <img className="boys" src={Mike} />
                         <h3>Michael Marinos: Guitar, Vocals</h3>
-                        <div className="lucas" style={{ backgroundImage: Lucas }}></div>
+                        <img className="boys" src={Lucas} />
                         <h3>Lucas Orton: Synth, Vocals</h3>
-                        <div className="marcus" style={{ backgroundImage: Marcus }}></div>
+                        <img className="boys" src={Marcus} />
                         <h3>Marcus Marinos: Drums, Vocals, Shaker egg</h3>
-                        <div className="matt" style={{ backgroundImage: Matt }}></div>
+                        <img className="boys" src={Matt} />
                         <h3>Matthew Marinos: Bass, Vocals</h3>
                     </div>
                     <div className="social">
