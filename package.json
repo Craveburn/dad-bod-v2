@@ -9,6 +9,7 @@
     "react-scripts": "1.1.5",
     "react-soundcloud": "^0.1.1",
     "react-soundcloud-embed": "^1.0.3",
+    "react-spotify-player": "^1.0.4",
     "semantic-ui-react": "^0.82.5"
   },
   "scripts": {
