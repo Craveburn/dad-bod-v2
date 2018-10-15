@@ -17,13 +17,13 @@ export default class extends Component {
                 <div className="aboutBody">
                     <h1>Dad bod is a band.</h1>
                     <div className="theBoys">
-                        <img className="boys" src={Mike} />
+                        <img className="boys" src={Mike} alt="pic of mike"/>
                         <h3>Michael Marinos: Guitar, Vocals</h3>
-                        <img className="boys" src={Lucas} />
+                        <img className="boys" src={Lucas} alt="pic of lucas" />
                         <h3>Lucas Orton: Synth, Vocals</h3>
-                        <img className="boys" src={Marcus} />
+                        <img className="boys" src={Marcus} alt="pic of marcus" />
                         <h3>Marcus Marinos: Drums, Vocals, Shaker egg</h3>
-                        <img className="boys" src={Matt} />
+                        <img className="boys" src={Matt} alt="pic of matt" />
                         <h3>Matthew Marinos: Bass, Vocals</h3>
                     </div>
                     <div className="social">

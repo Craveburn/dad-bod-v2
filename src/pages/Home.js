@@ -12,7 +12,7 @@ export default class extends Component {
             <div className='container'>
                 <Navbar />
                 <div className='homeBody'>
-                    <img src={TheBoys}></img>
+                    <img src={TheBoys} alt="pic of the boys in the band"></img>
                     <p>this is the mothafuckin home page</p>
                 </div>
             </div>
