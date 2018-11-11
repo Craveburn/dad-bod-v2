@@ -1,31 +1,8 @@
-.aboutContainer {
-    /* border: 1px solid red; */
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-/* flex container */
 .aboutBody {
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 50%;
-    margin: 0 auto;
-}
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: 0 15vw;
+    font-family: 'Raleway', sans-serif;
+  }
 
-/* flex items */
-.theBoys {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.theBoys h3{
-  border: 1px solid red;
-  margin: 0 auto;
-}
-
-.boys {
-max-width: 100%;
-}
+  @import url('https://fonts.googleapis.com/css?family=Raleway');

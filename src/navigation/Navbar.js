@@ -16,6 +16,7 @@ export default class extends Component {
                 <li><Link to="/music" className="page"><span>Music</span></Link></li>
                 <li><Link to="/shows" className="page"><span>Shows</span></Link></li>
                 <li><Link to="/merch" className="page"><span>Merch</span></Link></li>
+                <li><Link to="/merch" className="page"><span>Merch</span></Link></li>
                 </ul>
                 </div>
             </div>
