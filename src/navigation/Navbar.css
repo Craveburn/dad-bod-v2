@@ -53,17 +53,12 @@
 
 /* flex items */
 .logoContainer li {
-    flex: 1;
     text-align: center;
     display: flex;
-}
-
-.logoContainer .logo {
-    flex: 8;
+    flex: 1;
 }
 
 .logoContainer .page {
-    flex-basis: 100%;
     display: flex;
     align-items: center;
 }

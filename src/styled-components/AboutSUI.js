@@ -12,7 +12,7 @@ const AboutSUI = () => (
         <Grid.Row columns={1}>
             <Grid.Column width={10}>
                 <Segment>
-                    <Container text>
+                    <Container fluid text>
                         <Header as="h2">
                             A Band of Brothers: 3 by blood and 1 by choice
                         </Header>
