@@ -19,7 +19,6 @@
     background: rgba(0,0,0,0.2);
     padding:5px;
     width:100%;
-    text-align: center;
     transition: all 0.5s;
 }
 
@@ -34,7 +33,6 @@
     background: rgba(0,0,0,0.2);
     padding:20px;
     width:100%;
-    text-align: center;
     transition: all 0.5s;
 }
 
@@ -53,23 +51,20 @@
 
 /* flex items */
 .logoContainer li {
-
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
     display: flex;
-    flex: 1 0 auto;
+    flex: 1;
+    align-items: center
 }
 
 .pageLinks {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
-    /* align-self: flex-end; */
     width: 100%;
-    /* align-items: center; */
-
 }
 
 .socialLinks {
     display: flex;
-    /* align-items: center */
+    align-items: center
 }
