@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Home.css'
+import '../CSS/Home.css'
 
 import Navbar from '../navigation/Navbar.js'
 

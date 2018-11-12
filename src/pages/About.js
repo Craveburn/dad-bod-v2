@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './About.css'
+import '../CSS/About.css'
 
 import Navbar from '../navigation/Navbar.js'
 import AboutSUI from '../styled-components/AboutSUI.js'

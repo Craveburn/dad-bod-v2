@@ -3,7 +3,7 @@ import Navbar from '../navigation/Navbar.js'
 
 import SpotifyPlayer from 'react-spotify-player'
 
-import './Music.css'
+import '../CSS/Music.css'
 
 export default class extends Component {
 
