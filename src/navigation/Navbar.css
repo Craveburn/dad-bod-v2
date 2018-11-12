@@ -53,17 +53,23 @@
 
 /* flex items */
 .logoContainer li {
+
+    border: 1px solid blue;
     text-align: center;
     display: flex;
-    flex: 1;
+    flex: 1 0 auto;
 }
 
-.logoContainer .page {
+.pageLinks {
+    border: 1px solid red;
     display: flex;
-    align-items: center;
+    /* align-self: flex-end; */
+    width: 100%;
+    /* align-items: center; */
+
 }
 
-.logoContainer span {
-    display: block;
-    width: 100%;
+.socialLinks {
+    display: flex;
+    /* align-items: center */
 }
