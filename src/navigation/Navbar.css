@@ -31,8 +31,11 @@
     letter-spacing: 2px;
     text-decoration: none;
     background: rgba(0,0,0,0.2);
-    padding:20px;
+    height: 100%;
     width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.5s;
 }
 
@@ -66,5 +69,5 @@
 
 .socialLinks {
     display: flex;
-    align-items: center
+    width:100px;
 }
