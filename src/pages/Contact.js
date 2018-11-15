@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
 import Navbar from '../navigation/Navbar.js'
 
+import Contact from '../styled-components/ContactSUI.js'
+
 export default class extends Component {
 
     render() {
         return (
             <div>
                 <Navbar />
-                THIS IS WHERE A SCHEDULE OF THEIR PERFORMANCES WILL GO
+                <div>
+                    <Contact/>
+                </div>
             </div>
         )
     }
