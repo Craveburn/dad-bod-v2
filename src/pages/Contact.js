@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from '../navigation/Navbar.js'
 
-import Contact from '../styled-components/ContactSUI.js'
+import ContactSUI from '../styled-components/ContactSUI.js'
 
 export default class extends Component {
 
@@ -10,7 +10,7 @@ export default class extends Component {
             <div>
                 <Navbar />
                 <div>
-                    <Contact/>
+                    <ContactSUI/>
                 </div>
             </div>
         )

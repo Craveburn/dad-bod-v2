@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Header, Image, Modal } from 'semantic-ui-react'
 
 const ModalExampleTopAligned = () => (
-  <Modal trigger={<Button>Show Modal</Button>} centered={false}>
+  <Modal trigger={<Button basic inverted fluid>Contact Us</Button>} centered={false}>
     <Modal.Header>Select a Photo</Modal.Header>
     <Modal.Content image>
       <Image wrapped size='medium' src='/images/avatar/large/rachel.png' />
