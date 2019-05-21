@@ -25,6 +25,7 @@ export default class extends Component {
                 <div className="socialLinks">
                 <li><a href="https://www.facebook.com/officialdadbod/" className="page" target="_blank" rel="noopener noreferrer"><span><Icon name='facebook f'></Icon></span></a></li>
                 <li><a href="https://www.instagram.com/officialdadbod/" className="page" target="_blank" rel="noopener noreferrer"><span><Icon name='instagram'></Icon></span></a></li>
+                <li><a href="https://twitter.com/dadbodbandslc" className="page" target="_blank" rel="noopener noreferrer"><span><Icon name='twitter'></Icon></span></a></li>
                 </div>
                 </ul>
                 </div>
