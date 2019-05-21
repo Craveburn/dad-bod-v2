@@ -3,7 +3,7 @@ import '../CSS/Home.css'
 
 import Navbar from '../navigation/Navbar.js'
 
-import TheBoys from '../pics/Dad-bod-boys.jpg'
+import TheBoys from '../pics/UpdatedBandPhoto.jpg'
 
 
 export default class extends Component {
