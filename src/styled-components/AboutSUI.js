@@ -5,6 +5,7 @@ import Marcus from '../pics/MarcusMarinos.jpg'
 import Lucas from '../pics/LucasOrton.jpg'
 import Matt from '../pics/MatthewMarinos.jpg'
 import Mike from '../pics/MichaelMarinos.jpg'
+import Ben from '../pics/BenOstler.jpg'
 
 
 const AboutSUI = () => (
@@ -14,7 +15,7 @@ const AboutSUI = () => (
                 <Segment>
                     <Container fluid text>
                         <Header as="h2">
-                            A Band of Brothers: 3 by blood and 1 by choice
+                            Who is Dad Bod?
                         </Header>
                         Their individual and collective taste in music creates a sound that will make your ear
                         holes wish they had taste buds. They have many artists to give credit to for their musical
@@ -25,7 +26,7 @@ const AboutSUI = () => (
             </Grid.Column>
         </Grid.Row>
 
-        <Grid.Row columns={4}>
+        <Grid.Row columns={5}>
             {/* this is the break between images */}
             <Grid.Column>
                 <Segment>
@@ -90,9 +91,27 @@ const AboutSUI = () => (
                             <Card.Header>Lucas Orton</Card.Header>
                             <Card.Meta>Synth & Vocals</Card.Meta>
                             <Card.Description>
-                                The last brother, but definitely not the least. Luc’s Beethoven esc piano skills add a nice touch to the
+                                Luc’s Beethoven esc piano skills add a nice touch to the
                                 bands elegant sound. Luc’s skills and musical knowledge serve the band greatly since the other
                                 brothers don’t really know shit about music.
+                            </Card.Description>
+                        </Card.Content>
+                    </Card>
+                </Segment>
+            </Grid.Column>
+        <Grid.Column>
+                <Segment>
+                    <Card fluid >
+                        <Image src={Ben} />
+                        <Card.Content>
+                            <Card.Header>Ben Ostler</Card.Header>
+                            <Card.Meta>Does Some Music and Shit</Card.Meta>
+                            <Card.Description>
+                            Lorem ipsum dolor sit amet, singulis scriptorem id vim.
+                            Cu sit urbanitas ullamcorper, ea oratio partem mediocrem cum.
+                            Est probatus pertinax salutatus id, his id stet vide detracto.
+                            Id quo dolores quaestio contentiones. No augue perpetua democritum sed,
+                            ad purto viderer facilisis qui. Quo ne graece erroribus cotidieque.
                             </Card.Description>
                         </Card.Content>
                     </Card>
