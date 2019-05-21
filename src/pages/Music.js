@@ -15,7 +15,7 @@ export default class extends Component {
                 <div className="musicBody">
                     <div>
                         <SpotifyPlayer
-                        uri="spotify:track:3FSXtfCfI4rdAy1VtwRgN9"
+                        uri="spotify:album:5cJWerB6ToI8T1aQwF6kaB"
                         />
                     </div>
                 </div>
