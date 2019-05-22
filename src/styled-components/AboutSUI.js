@@ -9,7 +9,7 @@ import Ben from '../pics/BenOstler.jpg'
 
 
 const AboutSUI = () => (
-    <Grid verticalAlign='middle' centered>
+    <Grid centered>
         <Grid.Row columns={1}>
             <Grid.Column width={10}>
                 <Segment>
@@ -17,16 +17,16 @@ const AboutSUI = () => (
                         <Header as="h2">
                             Who is Dad Bod?
                         </Header>
-                        Their individual and collective taste in music creates a sound that will make your ear
-                        holes wish they had taste buds. They have many artists to give credit to for their musical
-                        inspiration such as Mac Demarco, Tame Impala, and Peach Pit. This bands new and unique sound
-                        is taking Western America by storm, and they don’t plan on stopping anytime soon.
+                        Dad Bod is comprised of 5 members, 3 of whom are brothers; with Michael Marinos on vocals and guitar,
+                        Matthew Marinos on bass guitar, Marcus Marinos on the drums, with Lucas Orton on keys, and Ben Ostler on
+                        lead guitar. The band released one EP early this year and is currently working on a full-length album
+                        to be released this summer.
                      </Container>
                 </Segment>
             </Grid.Column>
         </Grid.Row>
 
-        <Grid.Row columns={5}>
+        <Grid.Row columns={3}>
             {/* this is the break between images */}
             <Grid.Column>
                 <Segment>
@@ -56,8 +56,7 @@ const AboutSUI = () => (
                                 With the use of his bottled in rage, he shows the drums who their real daddy is. Marcus’ love of the
                                 oldies, rock and roll, and kurt vile, leaks through in his songwriting and his musical
                                 execution. The necessity of a drummer in the band required Marcus to step up to the task and
-                                learn the skill in a very short amount of time with no prior experience.The amount of
-                                progression that Marcus has shown on the drums proves that he is nothing less than a prodigy.
+                                learn the skill in a very short amount of time with no prior experience.
                             </Card.Description>
                         </Card.Content>
                     </Card>
@@ -76,8 +75,7 @@ const AboutSUI = () => (
                                 and put his skills to use as a bassist in Dad Bod. Matthew had no experience playing the bass
                                 before Dad Bod so when the band asked him to play the bass, his exact words were “Yeah..sure”.
                                 His skinny fingers now float across the strings like an apple in one of those apple bobbing
-                                stations at the carnival. You know? Like one of those things a bunch of people put their faces
-                                into and and try to get as many apples as possible? One of those things.
+                                stations at the carnival.
                             </Card.Description>
                         </Card.Content>
                     </Card>
@@ -105,13 +103,10 @@ const AboutSUI = () => (
                         <Image src={Ben} />
                         <Card.Content>
                             <Card.Header>Ben Ostler</Card.Header>
-                            <Card.Meta>Does Some Music and Shit</Card.Meta>
+                            <Card.Meta>Lead Guitar</Card.Meta>
                             <Card.Description>
-                            Lorem ipsum dolor sit amet, singulis scriptorem id vim.
-                            Cu sit urbanitas ullamcorper, ea oratio partem mediocrem cum.
-                            Est probatus pertinax salutatus id, his id stet vide detracto.
-                            Id quo dolores quaestio contentiones. No augue perpetua democritum sed,
-                            ad purto viderer facilisis qui. Quo ne graece erroribus cotidieque.
+                            Ben Ostler, age 21, is an all around classy act.  Lead guitarist, jazz music enthusiast, and San Pellgrino
+                            connoisseur, he brings a perfect cherry on top with his musical writing and influence.
                             </Card.Description>
                         </Card.Content>
                     </Card>
