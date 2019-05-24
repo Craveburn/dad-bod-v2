@@ -12,12 +12,10 @@ export default class extends Component {
     return (
       <div className="container">
         <Navbar />
-
-        <div className="videoPlayer">
-
-          <ReactPlayer url="https://youtu.be/-4CR3aGC8aQ" playing/>
-        </div>
         <div className="homeBody">
+          <div className="videoPlayer">
+            <ReactPlayer url="https://youtu.be/-4CR3aGC8aQ" playing />
+          </div>
           <img src={TheBoys} alt="pic of the boys in the band" />
           <p>this is the mothafuckin home page</p>
         </div>
