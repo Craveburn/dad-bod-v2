@@ -16,8 +16,9 @@ export default class extends Component {
           <div className="videoPlayer">
             <ReactPlayer url="https://youtu.be/-4CR3aGC8aQ" playing />
           </div>
-          <img src={TheBoys} alt="pic of the boys in the band" />
-          <p>this is the mothafuckin home page</p>
+          <p>Dad Bod - "Don't Say"</p>
+          {/* <img src={TheBoys} alt="pic of the boys in the band" />
+          <p>this is the mothafuckin home page</p> */}
         </div>
       </div>
     );
