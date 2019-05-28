@@ -3,29 +3,44 @@
   margin: 0 auto;
 }
 
-img {
-  max-width: 100%;
-}
-
-/* flex container */
 .homeBody {
   display: flex;
 }
 
-/* flex items */
-.homeBody {
-  display: flex;
+.homeText {
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  max-width: 100%;
-  margin: 0 auto;
+}
+
+.playerWrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
 }
 
 .videoPlayer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 50%;
-  margin: 0 auto;
-  padding-bottom: 1vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .homeBody {
+  }
+
+  .playerWrapper {
+    position: relative;
+    padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  }
+
+  .videoPlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
